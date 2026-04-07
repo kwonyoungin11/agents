@@ -1,0 +1,27 @@
+{
+  "mcpServers": {
+    "roblox-builtin": {
+      "command": "rbx-studio-mcp",
+      "args": [],
+      "env": {}
+    },
+    "robloxstudio-mcp": {
+      "command": "npx",
+      "args": ["-y", "robloxstudio-mcp@latest"],
+      "env": {}
+    }
+  },
+  "permissions": {
+    "allow": [
+      "mcp__roblox-builtin__run_code",
+      "mcp__roblox-builtin__insert_model",
+      "mcp__roblox-builtin__generate_mesh",
+      "mcp__roblox-builtin__generate_material",
+      "mcp__roblox-builtin__screen_capture",
+      "mcp__roblox-builtin__start_stop_play",
+      "mcp__roblox-builtin__get_console_output",
+      "mcp__roblox-builtin__run_script_in_play_mode",
+      "mcp__robloxstudio-mcp__*"
+    ]
+  }
+}
